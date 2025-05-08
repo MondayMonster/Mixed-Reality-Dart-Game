@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - QDSUIPrimaryButton
+  - QDSUIAccentColor
+  - QDSUISharedThemeColor
+  - QDSUISecondaryButton
+  - QDSUITextInputField
+  - QDSUIIcon
+  - QDSUITextSecondaryColor
+  - LeftController
+  - RightController
+  - BeatSpawnedShape
+  - ControllerTouch
+  - BlockCollider
+  - BeatSpawnedBlock
+  - Dart
+  - DartTip
+  - DartBoard
+  - DartSpawner
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Controller
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
