@@ -18,6 +18,7 @@ A spatially-aware AR dart-throwing game built in Unity using the Meta XR SDK. An
 ## Game Mechanics
 
 ### Dart Board  
+![Dart Board](./images/img1.png)  
 A traditional dart-board background is overlaid with 20 triangular models—one per slice—to detect hits. Any slice hit awards its face value; the bull’s-eye awards 50 points. Plays an impact sound on each valid hit. 
 
 ### Spatial Anchoring  
@@ -42,9 +43,11 @@ Players begin with three darts in a holder on the left controller.
 All in **DartBehavior.cs**. 
 
 ### Dart Spawner  
+![Dart Spawner](./images/img2.png)  
 **DartSpawner.cs** ensures there are always up to three darts in the holder. Darts stuck on the board aren’t counted; new darts spawn as others are thrown or expire. 
 
 ### Helper UI  
+![Helper UI](./images/img3.png)  
 - **START GAME** button appears at launch (no scoring before start)  
 - Once started, **RESTART** reloads the scene; **RESET** clears best score and anchor data, and returns board to default position ((0, 1.5, 0.5)), replaying the welcome instructions on next run. 
 
